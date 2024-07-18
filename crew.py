@@ -83,9 +83,10 @@ scientific_writer = Agent(
 
 # Tarefa de Gerenciamento de Pesquisa
 research_management_task = Task(
-    description=f"Realizar uma pesquisa extensa e aprofundada sobre {question}, identificando fontes confiáveis e coletando informações relevantes.",
+    description=f"research_management_task",
     expected_output=f'Documento detalhado que cubra todos os tópicos necessários para responder a questão: {question}.',
     agent=researcher,
+    # human_input=True,
     output_file=os.path.join(output_directory, "1-inicio_pesquisa.md")
 )
 
@@ -101,6 +102,7 @@ data_collection_task = Task(
 data_analysis_task = Task(
     description="Analisar os dados coletados, filtrando as melhores respostas e extraindo insights detalhados e relevantes.",
     expected_output=f'Respostas detalhadas para a questão: {question}.',
+    # human_input=True, 
     output_file=os.path.join(output_directory, "2-resposta.md"),
     agent=data_analyst,
     context=[research_management_task, data_collection_task]
@@ -120,6 +122,7 @@ article_writing_task = Task(
     expected_output="Documento completo e estruturado com os melhores resultados, links e explicações detalhadas.",
     agent=scientific_writer,
     async_execution=False,
+    # human_input=True,
     context=[research_management_task, data_collection_task, data_analysis_task, data_review_task],
     output_file=os.path.join(output_directory, "3-final.md")
 )
