@@ -5,7 +5,6 @@ Fazendo pesquisas elaboradas com [GPT](https://platform.openai.com) e [crewAI](h
 
 ## Requisitos
 - Python 3.10 or higher
-- [Poetry](https://python-poetry.org/) for dependency management
 - An [OpenAI](https://platform.openai.com) API key
 - A [Serper](https://serper.dev/) API key
 - A [Browserless](https://www.browserless.io/) API key
