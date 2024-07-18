@@ -1,4 +1,4 @@
-# Criando resumos de estudos com IA
+# Criando resumos de pesquisas com IA
 
 ## Overview
 Fazendo pesquisas elaboradas com [GPT](https://platform.openai.com) e [crewAI](https://crewai.com), e publicando aleatoriamente em [lazy researches](https://nonakaval.github.io/lazy_researches/). 
