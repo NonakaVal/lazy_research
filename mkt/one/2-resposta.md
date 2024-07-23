@@ -1,0 +1,9 @@
+- https://www.qualtrics.com/experience-management/research/market-research-guide/
+- https://www.checkmarket.com/blog/11-expert-tips-for-conducting-better-market-research/
+- https://www.business.com/articles/effective-market-research-strategies/
+- https://www.hotjar.com/blog/market-research/
+- https://blog.hubspot.com/marketing/market-research-buyers-journey-guide/
+- https://www.investopedia.com/terms/m/market-research.asp
+- https://www.brandwatch.com/blog/market-research-methods/
+- https://improvado.io/blog/how-to-make-market-research
+- https://www.digitalstrategyone.com/how-to-conduct-comprehensive-market-research/
