@@ -1,55 +1,48 @@
-# Criando resumos de pesquisas com IA
+# Creating research summaries with AI
 
 ## Overview
-Fazendo pesquisas elaboradas com [GPT](https://platform.openai.com) e [crewAI](https://crewai.com), e publicando aleatoriamente em [lazy researches](https://nonakaval.github.io/lazy_researches/). 
+Creating research summaries with [GPT](https://platform.openai.com) and [crewAI](https://crewai.com), and publishing randomly on [lazy researches](https://nonakaval.github.io/lazy_researches/).
 
-## Requisitos
+## Requirements
 - Python 3.10 or higher
 - An [OpenAI](https://platform.openai.com) API key
 - A [Serper](https://serper.dev/) API key
 - A [Browserless](https://www.browserless.io/) API key
 
-### Meus Agentes e Tarefas.
+### My Agents and Tasks.
 
-`{context_topic}` : Contexto da pesquisa
+`{context_topic}` : Research Context
 
-`{question}` : Pergunta a ser Respondida 
+`{question}` : Question to be Answered
 
-#### Agentes
+#### Agents
 
-`researcher` : _Especialista Sênior em Pesquisa em {context_topic}'._
+`researcher` : _Senior Research Specialist in {context_topic}'._
 
-`chief_researcher` : _Pesquisador Chefe_
+`chief_researcher` : _Chief Researcher_
 
-`data_miner` : _Minerador de Dados._
+`data_miner` : _Data Miner._
 
-`data_analyst` : _Analista de Dados Sênior'_
+`data_analyst` : _Senior Data Analyst'_
 
-`academic_reviewer` : _Revisor Acadêmico_
+`academic_reviewer` : _Academic Reviewer_
 
-`scientific_writer` : _Capaz de realizar pesquisas detalhadas e escrever documentos estruturados sobre métodos acadêmicos_
+`scientific_writer` : _Able to conduct detailed research and write structured papers on academic methods_
 
-#### Tarefas
+#### Tasks
 
-`research_management_task` : _Documento detalhado que cubra todos os tópicos necessários para responder a questão: {question}._
+`research_management_task` : _Detailed paper covering all topics needed to answer the question: {question}._
 
-`data_collection_task` : _Coletar dados atualizados e relevantes para responder precisamente a questão: {question}. Utilizar métodos validados e garantir a qualidade dos dados coletados._
+`data_collection_task` : _Collect up-to-date and relevant data to accurately answer the question: {question}. Use validated methods and ensure the quality of the data collected._
 
-`data_analysis_task` : _Analisar os dados coletados, filtrando as melhores respostas e extraindo insights detalhados e relevantes._
+`data_analysis_task` : _Analyze the collected data, filtering the best answers and extracting detailed and relevant insights._
 
-`data_review_task` : _Revisar o material coletado e analisado, garantindo precisão, consistência e relevância nos resultados da pesquisa sobre {context_topic}._
+`data_review_task` : _Review the collected and analyzed material, ensuring accuracy, consistency and relevance in the research results on {context_topic}._
 
-`article_writing_task` : _Redigir um documento científico estruturado que responda de forma completa e precisa à questão: {question}._ 
+`article_writing_task` : _Write a structured scientific document that fully and accurately answers the question: {question}._
 
-`article_writing_task` : _Redigir um documento científico estruturado que responda de forma completa e precisa à questão: {question}._ 
+`article_writing_task` : _Write a structured scientific document that fully and accurately answers the question: {question}._
 
-`new_questions_task` : _"Desenvolver novas questões relevantes para aprofundar a pesquisa, com base nos achados da pesquisa sobre: {question}.._ 
+`new_questions_task` : _"Develop new relevant questions to deepen the research, based on the research findings on: {question}.._
 
-`references_task` : _Listar todas as fontes e sites utilizados durante a pesquisa, com descrições detalhadas.._ 
-
-
-
-
-
-
-
+`references_task` : _List all sources and websites used during the research, with detailed descriptions._
